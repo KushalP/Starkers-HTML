@@ -51,6 +51,7 @@
 		<?php }?>
 		</ul>
 		
+		<nav>
 		<ul>
 				<?php wp_list_pages('title_li=<h2>Pages</h2>' ); ?>
 			<li><h2>Archives</h2>
@@ -60,6 +61,7 @@
 			</li>
 			<?php wp_list_categories('show_count=1&title_li=<h2>Categories</h2>'); ?>
 		</ul>
+		</nav>
 		
 		<ul>
 			<?php /* If this is the frontpage */ if ( is_home() || is_page() ) { ?>
