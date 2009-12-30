@@ -4,6 +4,7 @@
  * @subpackage Starkers
  */
 ?>
+	<aside>
 		<ul>
 			<?php 	/* Widgetized sidebar, if you have the plugin installed. */
 					if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
@@ -51,7 +52,7 @@
 		</ul>
 		
 		<ul>
-			<?php wp_list_pages('title_li=<h2>Pages</h2>' ); ?>
+				<?php wp_list_pages('title_li=<h2>Pages</h2>' ); ?>
 			<li><h2>Archives</h2>
 				<ul>
 				<?php wp_get_archives('type=monthly'); ?>
@@ -79,3 +80,4 @@
 
 			<?php endif; ?>
 		</ul>
+	</aside>
