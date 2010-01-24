@@ -18,5 +18,7 @@ Only WordPress
 Extra
 -----
 
+The current state of the code, while valid HTML5, is not at a finished state. Use at your own risk.
+
 If you'd like to request changes, report bug fixes, or contact
 the developer, email <kushal@violentlymild.com>
